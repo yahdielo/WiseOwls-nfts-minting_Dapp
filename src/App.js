@@ -105,17 +105,17 @@ function App() {
     CONTRACT_ADDRESS: "",
     SCAN_LINK: "",
     NETWORK: {
-      NAME: "Goerli",
-      SYMBOL: "Goerli",
-      ID: 5,
+      NAME: "",
+      SYMBOL: "",
+      ID: 0,
     },
-    NFT_NAME: "WiseOwls",
-    SYMBOL: "WISE",
-    MAX_SUPPLY: 7777,
-    WEI_COST: 0.015,
+    NFT_NAME: "",
+    SYMBOL: "",
+    MAX_SUPPLY: 1,
+    WEI_COST: 0,
     DISPLAY_COST: 0,
     GAS_LIMIT: 0,
-    MARKETPLACE: "OpenSea",
+    MARKETPLACE: "",
     MARKETPLACE_LINK: "",
     SHOW_BACKGROUND: false,
   });
@@ -205,7 +205,7 @@ function App() {
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            
+            <StyledImg alt={"example"} src={"/config/images/example.gif"} />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
@@ -371,7 +371,11 @@ function App() {
           </s.Container>
           <s.SpacerLarge />
           <s.Container flex={1} jc={"center"} ai={"center"}>
-          
+            <StyledImg
+              alt={"example"}
+              src={"/config/images/example.gif"}
+              style={{ transform: "scaleX(-1)" }}
+            />
           </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />

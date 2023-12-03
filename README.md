@@ -1,4 +1,4 @@
-# Welcome to HashLips 
+# Welcome to HashLips 👄
 
 ![](https://github.com/HashLips/hashlips_nft_minting_dapp/blob/main/logo.png)
 
@@ -26,7 +26,7 @@ The simple route is so simple, all you need to do is download the build folder o
 
 The more complex route allows you to add additional functionality if you are comfortable with coding in react.js. (Follow the below instructions for a walk through).
 
-## Installation 
+## Installation 🛠️
 
 If you are cloning the project then run this first, otherwise you can download the source code on the release page and skip this step.
 
